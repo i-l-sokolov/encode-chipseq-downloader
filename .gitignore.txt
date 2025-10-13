@@ -1,0 +1,6 @@
+.gitignore
+# Python
+__pycache__/
+
+# Downloaded data
+cell_lines/
