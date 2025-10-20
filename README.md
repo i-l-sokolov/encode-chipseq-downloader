@@ -20,7 +20,7 @@ pip install -r requirements.txt
 
 ### 1. Configure Your Query
 
-Edit `config/transcription_factors.txt`:
+Edit `tables/tfs.txt`:
 ```
 TF
 CEBPB
@@ -28,7 +28,7 @@ ATF4
 MYBL2
 ```
 
-Edit `config/cell_lines.txt`:
+Edit `tables/cells.txt`:
 ```
 Cell_line
 A549
@@ -39,7 +39,7 @@ K562
 ### 2. Run the Downloader
 
 ```bash
-python encode_downloader.py
+python code/downloader.py
 ```
 
 This will:
